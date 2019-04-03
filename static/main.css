@@ -47,6 +47,14 @@ body {
   font-size: 1.5rem;
 }
 
+h3 {
+  border-bottom: 1px solid rgb(225, 225, 225);
+  padding-bottom: 6px;
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #545454;
+}
+
 .top {
   height: 30px;
   border-bottom: 1px solid rgb(225, 225, 225);
@@ -123,10 +131,6 @@ body {
   line-height: 45px;
 }
 
-.spacer {
-  height: 50px;
-}
-
 .hero {
   background-image: url('images/background.jpg');
   height: 100vw;
@@ -135,4 +139,5 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  margin: 50px 0;
 }
