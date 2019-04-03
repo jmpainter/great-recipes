@@ -1,0 +1,88 @@
+/* reset */
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.top {
+  height: 30px;
+  border-bottom: 1px solid rgb(225, 225, 225);
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 30px;
+}
+
+.account-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  border-left: 1px solid rgb(225, 225, 225);
+  border-right: 1px solid rgb(225, 225, 225);
+  display: flex;
+  align-items: center;
+}
+
+.account-links li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.account-links li a {
+  color: #bf9764;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+}
+
+.wrapper {
+  width: 1000px;
+  margin: auto;
+}
