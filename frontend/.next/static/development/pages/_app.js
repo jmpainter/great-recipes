@@ -18,52 +18,61 @@ var _jsxFileName = "C:\\Users\\jpain\\Documents\\Classes\\Thinkful\\great-recipe
 
 
 
-var AccountLinksStyles = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].ul.withConfig({
+var AccountLinksStyles = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withConfig({
   displayName: "AccountLinks__AccountLinksStyles",
   componentId: "hqegxw-0"
-})([".container{height:30px;border-bottom:1px solid rgb(225,225,225);}"]);
+})(["height:30px;border-bottom:1px solid rgb(225,225,225);.inner{display:flex;align-items:center;justify-content:flex-end;height:30px;max-width:", ";margin:0 auto;}.inner a{list-style-type:none;margin:0;padding:0 7px;height:100%;border-left:1px solid rgb(225,225,225);border-right:1px solid rgb(225,225,225);display:flex;align-items:center;color:#bf9764;text-transform:uppercase;font-family:'Open Sans',sans-serif;font-size:13px;}"], function (props) {
+  return props.theme.maxWidth;
+});
 
 var AccountLinks = function AccountLinks() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AccountLinksStyles, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 34
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 35
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "inner",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/find-a-recipe",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 37
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 38
     },
     __self: this
   }, "Find a Recipe")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/add-a-recipe",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 40
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 41
     },
     __self: this
-  }, "Add a Recipe"))));
+  }, "Add a Recipe")))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (AccountLinks);
