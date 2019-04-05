@@ -1,0 +1,27 @@
+type User {
+  id: ID! @unique
+  name: String!
+  email: String! @unique
+  password: String!
+  resetToken: String
+  resetTokenExpiry: Float
+  recipes: [Recipe]!
+}
+
+type Recipe {
+  id: ID! @unique
+  name: String!
+  ingredients: String!
+  instructions: String
+  category: String
+  user: User!
+  reviews: [Review]!
+}
+
+type Review {
+  id: ID! @unique
+  user: User!
+  recipe: Recipe!
+  text: String!
+  rating: Int!
+}
